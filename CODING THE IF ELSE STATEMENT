@@ -1,0 +1,23 @@
+package selfProgramming;
+
+class TheIfElseStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double amount = 666;
+		double balance = 999;
+		double OVERDRAFT_PENALTY = 40;
+		
+		if (amount <= balance)
+		{
+			balance = balance - amount;
+			System.out.println("Acct new balance = "  + balance);
+		}
+		else
+		{
+		    balance = balance - OVERDRAFT_PENALTY;
+	      System.out.println("TRANSACTION NOT ALLOWED");
+		} 
+	}
+
+}
