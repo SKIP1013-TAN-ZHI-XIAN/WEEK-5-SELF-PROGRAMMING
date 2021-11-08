@@ -9,7 +9,7 @@ class LogicalOperators {
 		double age = 45;
 		
 		if ((income > MIN_LEVEL ) && (age < 50))
-	       System.out.println ("Can Apply Loan");
+	           System.out.println ("Can Apply Loan");
 	}
 
 }
