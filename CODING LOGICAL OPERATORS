@@ -10,6 +10,8 @@ class LogicalOperators {
 		
 		if ((income > MIN_LEVEL ) && (age < 50))
 	           System.out.println ("Can Apply Loan");
+		   
+		System.out.println();
 		
 		double amount = 357;
 		double balance = 888;
