@@ -20,7 +20,7 @@ class CombinationBoolean {
 		}
 		else 
 		{
-		  System.out.println("You are NOT qualified to apply"); 
+		        System.out.println("You are NOT qualified to apply"); 
 		}
 	}
 
