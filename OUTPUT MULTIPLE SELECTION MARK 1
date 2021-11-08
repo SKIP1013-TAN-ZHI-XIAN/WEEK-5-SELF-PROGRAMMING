@@ -1,0 +1,14 @@
+Enter the marks : 94
+grade = 'A'
+
+Enter the marks : 82
+grade = 'B'
+
+Enter the marks : 70
+grade = 'C'
+
+Enter the marks : 66
+grade = 'D'
+
+Enter the marks : 40
+grade = 'F'
