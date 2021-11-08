@@ -7,7 +7,7 @@ class Count {
 		double y = 15.0;
 		double x = 25.0;
 		if (y != x)
-	       System.out.println("Result : y not equal x");
+	           System.out.println("Result : y not equal x");
 	}
 
 }
