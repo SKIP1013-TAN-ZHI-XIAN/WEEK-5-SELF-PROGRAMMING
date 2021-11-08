@@ -1,0 +1,44 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+class MultipleSelectionMark2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double mark;
+		
+		Scanner scanMe = new Scanner(System.in);  
+		
+		System.out.print("Enter the marks : ");
+		mark = scanMe.nextDouble();
+		char grade;
+		
+		if ((mark >= 90) && (mark <=100))
+		{
+			grade = 'A';
+			System.out.println("Marks is : " + mark + " and grade is : " + grade);
+		}
+		else if ((mark >= 80) && (mark <= 89))
+		{	
+			grade = 'B';
+			System.out.println("Marks is : " + mark + " and grade is : " + grade);
+		}
+		else if ((mark >= 70) && (mark <= 79))
+		{
+			grade = 'C';
+			System.out.println("Marks is : " + mark + " and grade is : " + grade);
+		}
+		else if ((mark >= 60) && (mark <= 69))
+		{
+			grade = 'D';
+			System.out.println("Marks is : " + mark + " and grade is : " + grade);
+		}
+		else 
+		{
+			grade = 'F';
+			System.out.println("Marks is : " + mark + " and grade is : " + grade);
+		}
+	}
+
+}
