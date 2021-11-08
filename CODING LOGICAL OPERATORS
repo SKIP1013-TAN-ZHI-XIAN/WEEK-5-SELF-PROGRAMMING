@@ -10,6 +10,16 @@ class LogicalOperators {
 		
 		if ((income > MIN_LEVEL ) && (age < 50))
 	           System.out.println ("Can Apply Loan");
+		
+		double amount = 357;
+		double balance = 888;
+		// New withdrawal condition :
+		// Withdrawal amount of more than RM1000.00 is not allowed
+		if ((amount <= 1000.0) && (amount <= balance))
+		{   
+		   balance = balance - amount;
+		   System.out.println("Acct new balance = " + balance);
+		}
 	}
 
 }
