@@ -1,0 +1,17 @@
+package selfProgramming;
+
+class TheIfStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double total = 123;
+		double MAX = 99;
+		double MAX_RATE = 0.45;
+		double charge;
+		
+		if (total > MAX)
+		   charge = total * MAX_RATE;
+		   System.out.println ("The total is " + total);
+	}
+
+}
