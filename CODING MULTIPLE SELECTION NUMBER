@@ -17,12 +17,12 @@ class MultipleSelectionNumber {
 		{
 			  System.out.println ("The number you enter is : " + a);
 			  System.out.println ("You enter the positive number");	
-	    }		
+	        }		
 		else if (a < 0)
 		{	
 			  System.out.println ("The number you enter is : " + a);
 			  System.out.println ("You enter the negative number");	
-	    }
+	        }
 		else 
 		{	
 			  System.out.println ("The number you enter is : " + a);
