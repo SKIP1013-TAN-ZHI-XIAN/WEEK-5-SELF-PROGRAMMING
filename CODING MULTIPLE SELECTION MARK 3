@@ -24,6 +24,7 @@ class MultipleSelectionMark3 {
 			grade = 'D';
 		if ((mark >= 0) && (mark <= 59))
 			grade = 'F';
+		
 		System.out.println("Marks is : " + mark + " and grade is : " + grade);
 	}
 
