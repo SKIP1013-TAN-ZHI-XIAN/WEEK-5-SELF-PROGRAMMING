@@ -22,7 +22,7 @@ class BlockStatements {
 		}
 		
 		if (amount <= balance)
-	     balance = balance - amount;
+	           balance = balance - amount;
 		   System.out.println("Acct new balance = " + balance);
 	}
 
