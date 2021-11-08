@@ -18,7 +18,7 @@ class SwitchBreak {
 		    break;
 		 default :
 		    System.out.println("default");
-		 }
+		}
 		
 		System.out.println();
 		
