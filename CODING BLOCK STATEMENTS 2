@@ -1,0 +1,30 @@
+package selfProgramming;
+
+class BlockStatements2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int age = 50;
+		double amount = 1500;
+		double balance = 1000;
+		double OVERDRAFT_PENALTY = 50;
+		
+		// if ((income > MIN_LEVEL) && (age <= 50))
+		      // System.out.println ("Can Apply Loan");
+		
+		// single statement
+		if ((amount <= 1000.0) && (amount <= balance))
+			balance = balance - amount;
+		System.out.println("1. Acct new balance = " + balance);
+		
+		// block statement
+		if ((amount <= 1000.0) && (amount <= balance))
+		{
+			balance = balance - amount;
+		System.out.println("2. Acct new balance = " + balance);
+		}
+		else
+			System.out.println("2.1 Acct new balance = " + balance);
+	}
+
+}
