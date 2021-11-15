@@ -12,13 +12,18 @@ class BlockStatements {
 		   System.out.println ("Error!!");
 		}
 		
-		double amount = 33;
+		double amount = 77;
 		double balance = 66;
 		
 		if (amount <= balance)
 		{
 		   balance = balance - amount;
 		   System.out.println("Acct new balance = " + balance);
+		}
+		else if (amount >= balance)
+		{
+			balance = balance - amount;
+			System.out.println("You don't have sufficient balance");		
 		}
 		
 		if (amount <= balance)
